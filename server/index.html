@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Battleship!</title>
+</head>
+<body>
+
+  <form id="login" action="/game" method="post">
+    <label>
+      Please type your name
+      <input type="text" name="player" id="player">
+      <input type="submit" name="start" value="Start Battle!">
+    </label>
+  </form>
+
+  <span class="message">
+
+  </span>
+
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/socket.io.js"></script>
+  <script src="/assets/js/client.js"></script>
+
+</body>
+</html>
